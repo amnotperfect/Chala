@@ -10,6 +10,7 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  background-color: whitesmoke;
 }
 
 .nav > ul {
@@ -23,10 +24,12 @@
 .nav > ul > li {
   list-style-type: none;
   margin: 0px 40px;
+  color: darkslategray;
+  font-weight: bold;
 }
 
 .page {
-  height: 93vh;
+  height: 300vh;
   width: 100%;
   background-color: whitesmoke;
 }
@@ -38,6 +41,7 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  margin-bottom: 10px 0px;
 }
 
 .welcome > section {
@@ -56,16 +60,57 @@
 
 .welcome > section:nth-child(1) > h1 {
   font-size: 45px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .welcome > section:nth-child(2) {
-  background-color: coral;
+  background-color: gainsboro;
+}
+
+.ourInfo {
+  width: 100%;
+  height: 50vh;
+  background-color: "";
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 15px 0px;
+}
+
+.ourInfo > section {
+  height: 90%;
+  background-color: rgba(47, 79, 79, 0.5);
+  border-radius: 5px;
+}
+
+.ourInfo > section:nth-child(1) {
+  flex: 0 0 25%;
+}
+
+.ourInfo > section:nth-child(2) {
+  flex: 0 0 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px 0px;
+}
+.ourInfo > section:nth-child(2) > li {
+  list-style-type: none;
+  padding: 0px 15px;
+  margin: 10px 0px;
+}
+
+.ourInfo > section:nth-child(2) > li > b {
+  color: #303030;
+  padding: 0px 0px;
+  margin-right: 15px;
 }
 
 .details {
   width: 100%;
   height: 90vh;
-  background: beige;
+  background: white;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -74,17 +119,20 @@
 .infoCard {
   flex: 0 0 30%;
   height: 70%;
-  background-color: tomato;
+  background-color: beige;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  border-radius: 5px;
 }
 
 .infoCard > h1 {
   flex: 0 0 30%;
   color: #404040;
-  padding: 25px 0px;
+  padding: 35px 0px;
+  font-size: 20px;
+  border-bottom: 1px solid grey;
 }
 
 .infoCard > ul {
@@ -95,10 +143,58 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0px 15px;
+  padding: 20px 15px;
 }
 
 .infoCard > ul > li > span {
   padding: 0px 10px;
-  font-weight: bold;
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .nav > ul > li {
+    margin: 0px 10px;
+  }
+
+  .welcome {
+    flex-direction: column;
+  }
+
+  .welcome > section {
+    width: 100%;
+  }
+
+  .ourInfo {
+    height: 40vh;
+    flex-direction: column;
+  }
+
+  .ourInfo > section {
+    margin: 10px 0px;
+    width: 100%;
+  }
+
+  .ourInfo > section:nth-child(1) {
+    display: none;
+  }
+
+  .ourInfo > section:nth-child(2){
+    flex: 0 0 98%;
+  }
+
+  .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 150vh;
+    max-height: auto;
+    background-color: gainsboro;
+  }
+
+  .details > .infoCard {
+    flex: 0 0 350px;
+    width: 90%;
+    margin: 15px;
+  }
 }
