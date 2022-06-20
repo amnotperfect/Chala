@@ -1,0 +1,16 @@
+.historyPage {
+  min-height: 100vh;
+  max-height: auto;
+  background-color: white;
+}
+
+.historyPage > section {
+  margin: 10px 0px;
+  width: 100%;
+  background-color: floralwhite;
+  padding: 10px 15px;
+}
+
+.historyPage > section>p{
+margin: 10px 0px;
+}

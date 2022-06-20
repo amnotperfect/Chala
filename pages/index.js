@@ -4,6 +4,7 @@ import styles from "../styles/Home.module.css";
 import Details from "../components/Details";
 import Nav from "../components/Nav";
 
+
 function OurInfo() {
   return (
     <div className={styles.ourInfo}>
@@ -29,6 +30,14 @@ function OurInfo() {
   );
 }
 
+function Tittle({ tittle }) {
+  return (
+    <div className={styles.tittle}>
+      <h2>{tittle}</h2>
+    </div>
+  );
+}
+
 export default function Home() {
   return (
     <>
@@ -39,12 +48,14 @@ export default function Home() {
             <h1>Chala secondary</h1>
             <h1>Taita Taveta County</h1>
           </section>
-          <section>
-          </section>
+          <section></section>
         </main>
         <OurInfo />
+        <Tittle tittle="About Us" />
         <Details />
       </div>
     </>
   );
 }
+
+//https://github.com/amnotperfect/Chala.git
