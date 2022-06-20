@@ -41,7 +41,7 @@ const History = () => {
             Primary Headteachers, Religions leaders, Village elders, Business
             people and the Two Assistant Chiefs to discuss on
           </p>
-          <li>Education Main Agend</li>
+          <li>Education Main Agenda</li>
           <li>Agriculture</li>
           <li>Health</li>
 

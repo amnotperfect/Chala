@@ -9,7 +9,9 @@ function Nav() {
         <li>
           <Link href="/History">History</Link>
         </li>
-        <li>Gallery</li>
+        <li>
+          <Link href="/Gallery">Gallery</Link>
+        </li>
         <li>Contact Us</li>
       </ul>
     </nav>
