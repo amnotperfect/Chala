@@ -72,6 +72,12 @@
 
 .welcome > section:nth-child(2) {
   background-color: gainsboro;
+  position: relative;
+}
+
+.welcome > section:nth-child(2)>image{
+  width: 100%;
+  height: 100%;
 }
 
 .ourInfo {
@@ -181,6 +187,15 @@
 
   .welcome > section {
     width: 100%;
+  }
+
+  .welcome > section:nth-child(2){
+    width: 95%;
+    border-radius: 10px;
+  }
+
+  .welcome > section:nth-child(2)>Image{
+    border-radius: 10px;
   }
 
   .ourInfo {

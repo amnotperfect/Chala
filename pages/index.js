@@ -4,7 +4,6 @@ import styles from "../styles/Home.module.css";
 import Details from "../components/Details";
 import Nav from "../components/Nav";
 
-
 function OurInfo() {
   return (
     <div className={styles.ourInfo}>
@@ -48,7 +47,9 @@ export default function Home() {
             <h1>Chala secondary</h1>
             <h1>Taita Taveta County</h1>
           </section>
-          <section></section>
+          <section>
+            <Image layout="fill" src={require("../img/02.jpg").default} />
+          </section>
         </main>
         <OurInfo />
         <Tittle tittle="About Us" />
