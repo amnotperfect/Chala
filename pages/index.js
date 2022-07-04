@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Details from "../components/Details";
+import Footer from "../components/Footer";
 import Nav from "../components/Nav";
 
 function OurInfo() {
@@ -48,12 +49,17 @@ export default function Home() {
             <h1>Taita Taveta County</h1>
           </section>
           <section>
-            <Image layout="fill" src={require("../img/02.jpg").default} />
+            <Image
+              layout="fill"
+              style={{ borderRadius: "10px" }}
+              src={require("../img/02.jpg").default}
+            />
           </section>
         </main>
         <OurInfo />
         <Tittle tittle="About Us" />
         <Details />
+        <Footer />
       </div>
     </>
   );

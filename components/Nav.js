@@ -12,7 +12,9 @@ function Nav() {
         <li>
           <Link href="/Gallery">Gallery</Link>
         </li>
-        <li>Contact Us</li>
+        <li>
+          <Link href="/ContactUs">Contact Us</Link>
+        </li>
       </ul>
     </nav>
   );
