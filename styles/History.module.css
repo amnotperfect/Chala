@@ -11,6 +11,10 @@
   padding: 10px 15px;
 }
 
-.historyPage > section>p{
-margin: 10px 0px;
+.historyPage > section > p {
+  margin: 15px 0px;
+}
+
+.historyPage > section > li {
+  margin: 10px 0px;
 }
