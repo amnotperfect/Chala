@@ -18,7 +18,7 @@
 .contactUs > section > div {
   flex: 0 0 20%;
   height: 80%;
-  background-color: royalblue;
+  background-color: darkslategray;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,7 +33,7 @@
 .contactUs > div {
   width: 100%;
   height: 50vh;
-  background-color: beige;
+  background: linear-gradient(to bottom right, white, beige);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -41,7 +41,7 @@
 }
 
 .contactUs > div > li {
-  margin: 10px 20px;
+  margin: 10px 30px;
   list-style-type: none;
 }
 

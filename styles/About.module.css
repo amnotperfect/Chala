@@ -1,0 +1,20 @@
+.aboutPage {
+  background-color: white;
+  min-height: 100vh;
+  max-height: auto;
+}
+.aboutPage > section {
+  width: 100%;
+  height: auto;
+  padding: 10px 25px;
+  margin: 10px 20px;
+}
+
+.aboutPage > section > h1 {
+  margin: 10px;
+}
+
+.aboutPage > section > li {
+  padding: 10px 15px;
+  list-style-type: none;
+}
