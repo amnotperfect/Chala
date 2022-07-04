@@ -13,13 +13,13 @@ const ContactUs = () => {
         </section>
         <div>
           <li>
-            <b>Email</b> chalasecondary@gmail.com
+            <b>Email</b> chalasecondaryschool@gmail.com
           </li>
           <li>
-            <b>Phone</b> 070000000
+            <b>Phone</b> 0708733750
           </li>
           <li>
-            <b>Message</b> 070000000
+            <b>Message</b> 0708733750
           </li>
           <li>
             <b>Facebook</b> Chala Secondary

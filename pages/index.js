@@ -13,7 +13,7 @@ function OurInfo() {
         <li>
           <b>MOTTO </b>
           <br />
-          ELIMU NI MWANGAZA
+          <p>ELIMU NI MWANGAZA</p>
         </li>
         <li>
           <b>VISION </b>
@@ -45,15 +45,15 @@ export default function Home() {
       <div className={styles.page}>
         <main className={styles.welcome}>
           <section>
-            <h1>Chala secondary</h1>
-            <h1>Taita Taveta County</h1>
-          </section>
-          <section>
             <Image
               layout="fill"
-              style={{ borderRadius: "10px" }}
+              style={{ borderRadius: "0px" }}
               src={require("../img/02.jpg").default}
             />
+          </section>
+          <section>
+            <h1>Chala secondary</h1>
+            <h1>Taita Taveta County</h1>
           </section>
         </main>
         <OurInfo />
