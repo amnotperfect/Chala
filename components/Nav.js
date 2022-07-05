@@ -9,6 +9,9 @@ function PopUpMenu() {
         <Link href="/Departments">Departments</Link>
       </li>
       <li>
+        <Link href="/Departments">Facilities </Link>
+      </li>
+      <li>
         <Link href="Management">Management</Link>
       </li>
     </div>
@@ -28,9 +31,6 @@ function Nav() {
         </li>
         <li>
           <Link href="/Gallery">Gallery</Link>
-        </li>
-        <li>
-          <Link href="/ContactUs">Contact Us</Link>
         </li>
         {sideMenu && <PopUpMenu />}
       </ul>

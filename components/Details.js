@@ -4,69 +4,69 @@ function Details() {
   return (
     <div className={styles.details}>
       <div className={styles.infoCard}>
-        <h1>WHO WE ARE</h1>
+        <h1>Our School</h1>
         <ul>
           <li>
-            <span>DAY/BOARDING :</span>Day and Boarding
+            <span>Day/Boarding :</span>Day and Boarding
           </li>
           <li>
-            <span>GENDER :</span> Mixed
+            <span>Gender :</span> Mixed
           </li>
           <li>
-            <span>LEVEL :</span> secondary School
+            <span>Level :</span> secondary School
           </li>
           <li>
-            <span>OWNERSHIP :</span> Public
+            <span>Ownership :</span> Public
           </li>
           <li>
-            <span>SPONSOR :</span>ACK
+            <span>Sponsor:</span>ACK
           </li>
           <li>
-            <span>STUDENTS NEEDS :</span>Ordinary
+            <span>Student needs :</span>Ordinary
           </li>
         </ul>
       </div>
 
       <div className={styles.infoCard}>
-        <h1>OUR LOCATION</h1>
+        <h1>Our Location</h1>
         <ul>
           <li>
-            <span>REGION :</span>Coast
+            <span>Region :</span>Coast
           </li>
           <li>
-            <span>COUNTY :</span> Taita Taveta
+            <span>County :</span> Taita Taveta
           </li>
           <li>
-            <span>SUB COUNTY :</span> Taveta
+            <span>Sub County :</span> Taveta
           </li>
           <li>
-            <span>CONSTITUENCY :</span> Teveta
+            <span>Constituency :</span> Teveta
           </li>
           <li>
-            <span>DIVISION :</span> Taveta
+            <span>Division :</span> Taveta
           </li>
           <li>
-            <span>WARD:</span> Chala
+            <span>Ward:</span> Chala
           </li>
         </ul>
       </div>
       <div className={styles.infoCard}>
-        <h1>OUR STAFF</h1>
+        <h1>Our Staff</h1>
         <ul>
           <li>
-            <span>TSC MALE TEACHERS :</span>10
+            <span>TSC Male Teachers :</span>10
           </li>
           <li>
-            <span>TSC FEMALE TEACHERS :</span> 7
+            <span>TSC Female Teachers :</span> 7
           </li>
           <li>
             <span>PA/BOM :</span>0
           </li>
           <li>
-            <span>NTS FEMALE :</span>9
+            <span>NTS Male :</span>9
           </li>
           <li>
-            <span>NTS FEMALE:</span>7
+            <span>NTS Female:</span>7
           </li>
         </ul>
       </div>

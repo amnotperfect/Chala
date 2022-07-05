@@ -4,6 +4,7 @@ import styles from "../styles/Home.module.css";
 import Details from "../components/Details";
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
+import Link from "next/link";
 
 function OurInfo() {
   return (
@@ -56,6 +57,11 @@ export default function Home() {
             <h1>Taita Taveta County</h1>
           </section>
         </main>
+        <div className={styles.contactBtn}>
+          <button>
+            <Link href="/ContactUs">ContactUs</Link>
+          </button>
+        </div>
         <OurInfo />
         <Tittle tittle="About Us" />
         <Details />

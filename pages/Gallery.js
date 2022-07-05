@@ -10,6 +10,7 @@ function ImgCont({ num }) {
   return (
     <div className={styles.imgCont}>
       <Image
+        alt="Chala secondary Image"
         layout="fill"
         objectFit="cover"
         src={require(`../img/${prevNum}${num}.jpg`).default}
@@ -40,7 +41,7 @@ const Gallery = () => {
             className={styles.galleryImg}
             layout="fill"
             objectFit="cover"
-            src={require("../img/06.jpg").default}
+            src={require("../img/11.jpg").default}
           />
         </section>
         <section>
@@ -49,7 +50,7 @@ const Gallery = () => {
               className={styles.galleryImg}
               layout="fill"
               objectFit="cover"
-              src={require("../img/03.jpg").default}
+              src={require("../img/06.jpg").default}
             />
           </div>
           <div>
@@ -57,7 +58,7 @@ const Gallery = () => {
               className={styles.galleryImg}
               layout="fill"
               objectFit="cover"
-              src={require("../img/04.jpg").default}
+              src={require("../img/10.jpg").default}
             />
           </div>
         </section>

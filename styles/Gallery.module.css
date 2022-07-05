@@ -11,7 +11,9 @@
   position: relative;
   flex: 0 0 45%;
   height: 95%;
-  background-color: "";
+}
+.galleryWelcome > section:nth-child(1) {
+  background: firebrick;
 }
 
 .galleryWelcome > section:nth-child(2) {
@@ -23,9 +25,9 @@
 
 .galleryWelcome > section:nth-child(2) > div {
   position: relative;
-  flex: 0 0 45%;
+  flex: 0 0 49%;
   width: 100%;
-  background-color: "";
+  background-color: brown;
 }
 
 .imgDiv {
