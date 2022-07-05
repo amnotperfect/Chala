@@ -12,8 +12,6 @@
   color: #0c0c0c;
 }
 
-
-
 .page {
   min-height: 100vh;
   max-height: auto;
@@ -207,11 +205,11 @@
   }
 
   .welcome > section:nth-child(1) {
-    flex: 0 0 60%;
+    flex: 0 0 55%;
   }
 
   .welcome > section:nth-child(2) {
-    flex: 0 0 40%;
+    flex: 0 0 45%;
   }
 
   .welcome > section:nth-child(2) > h1 {
@@ -251,7 +249,7 @@
     overflow-x: auto;
     min-height: 50vh;
     max-height: 50vh;
-    background-color: "";
+    background: whitesmoke;
     justify-content: flex-start;
   }
 
