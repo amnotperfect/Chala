@@ -49,7 +49,7 @@ export default function Home() {
             <Image
               layout="fill"
               style={{ borderRadius: "0px" }}
-              src={require("../img/02.jpg").default}
+              src={require("../img/06.jpg").default}
             />
           </section>
           <section>
@@ -63,7 +63,7 @@ export default function Home() {
           </button>
         </div>
         <OurInfo />
-        <Tittle tittle="About Us" />
+        <Tittle tittle="About Us 	&#187;" />
         <Details />
         <Footer />
       </div>

@@ -1,8 +1,8 @@
-import styles from "../styles/Home.module.css";
+import styles from "../styles/Nav.module.css";
 import Link from "next/link";
 import { useState } from "react";
 
-function PopUpMenu() {
+function PopUpMenu({ close }) {
   return (
     <div className={styles.popUpMenu}>
       <li>
@@ -14,6 +14,8 @@ function PopUpMenu() {
       <li>
         <Link href="Management">Management</Link>
       </li>
+
+      <span onClick={(e) => close()}>close</span>
     </div>
   );
 }
@@ -32,7 +34,7 @@ function Nav() {
         <li>
           <Link href="/Gallery">Gallery</Link>
         </li>
-        {sideMenu && <PopUpMenu />}
+        {sideMenu && <PopUpMenu close={(e) => setSideMenu(!sideMenu)} />}
       </ul>
     </nav>
   );

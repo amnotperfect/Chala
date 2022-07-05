@@ -24,7 +24,9 @@
   align-items: center;
   transition: ease-in-out 0.5s;
   border-radius: 5px;
+  color: whitesmoke;
 }
+
 
 .contactUs > section > div:hover {
   background-color: skyblue;
@@ -43,6 +45,7 @@
 .contactUs > div > li {
   margin: 10px 30px;
   list-style-type: none;
+ 
 }
 
 @media (max-width: 600px) {

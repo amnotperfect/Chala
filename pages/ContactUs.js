@@ -6,10 +6,29 @@ const ContactUs = () => {
       <Header header="Contact Us" />
       <div className={styles.contactUs}>
         <section>
-          <div>Facebook</div>
-          <div>Whatsapp</div>
-          <div>Message</div>
-          <div>Email</div>
+          <div>
+            {" "}
+            <a href="mailto:chalasecondaryschool@gmail.com">
+              <i class="material-icons">Email</i>
+            </a>
+          </div>
+          <div>
+            {" "}
+            <a href="tel:254708733750">
+              <i class="material-icons">Phone</i>
+            </a>
+          </div>
+          <div>
+            <a href="sms:254708733750">
+              <i class="material-icons">Message</i>
+            </a>
+          </div>
+          <div>
+            {" "}
+            <a href="">
+              <i class="material-icons">facebook</i>
+            </a>
+          </div>
         </section>
         <div>
           <li>
