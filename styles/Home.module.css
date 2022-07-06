@@ -3,7 +3,7 @@
   height: 15vh;
   background-color: white;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   padding-left: 15px;
 }
@@ -198,6 +198,7 @@
 
   .welcome {
     flex-direction: column;
+    height: 80vh;
   }
 
   .welcome > section {
@@ -205,11 +206,11 @@
   }
 
   .welcome > section:nth-child(1) {
-    flex: 0 0 55%;
+    flex: 0 0 60%;
   }
 
   .welcome > section:nth-child(2) {
-    flex: 0 0 45%;
+    flex: 0 0 40%;
   }
 
   .welcome > section:nth-child(2) > h1 {

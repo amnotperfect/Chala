@@ -5,6 +5,7 @@ import Details from "../components/Details";
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
 import Link from "next/link";
+import { useState } from "react";
 
 function OurInfo() {
   return (
@@ -40,6 +41,15 @@ function Tittle({ tittle }) {
 }
 
 export default function Home() {
+  const [displayImage, setDisplayImage] = useState("06");
+
+  setInterval((e) => {
+    if (displayImage === "09") {
+      setDisplayImage("11");
+    } else {
+      setDisplayImage("09");
+    }
+  }, 30000);
   return (
     <>
       <Nav />
@@ -48,8 +58,9 @@ export default function Home() {
           <section>
             <Image
               layout="fill"
+              objectFit="cover"
               style={{ borderRadius: "0px" }}
-              src={require("../img/06.jpg").default}
+              src={require(`../img/${displayImage}.jpg`).default}
             />
           </section>
           <section>
